@@ -1,9 +1,9 @@
 import React from 'react'
-export default function Home() {
+
+const home = () => {
   return (
-    
-     <>
-     home
-     </>
-  );
+    <div>home</div>
+  )
 }
+
+export default home
