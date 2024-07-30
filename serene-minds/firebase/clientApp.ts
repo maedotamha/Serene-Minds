@@ -11,8 +11,7 @@ const clientCredentials = {
   appId: process.env.FIREBASE_APPID
 };
 
-if(!firebase.apps.length){
     firebase.initializeApp(clientCredentials)
-}
+
 
 export default firebase; 
